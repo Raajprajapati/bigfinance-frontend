@@ -1,0 +1,40 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .random button,
+  .seachbyrank button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #e8bb19;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .random button:hover,
+  .seachbyrank button:hover {
+    background-color: #ba9306;
+  }
+  
+  .seachbyrank form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .seachbyrank input {
+    padding: 10px;
+    font-size: 1em;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .seachbyrank button:hover {
+    background-color: #ba9306;
+  }
+  

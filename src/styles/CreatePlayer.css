@@ -1,0 +1,39 @@
+.createPlayer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createPlayer h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .createPlayer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .createPlayer input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  .createPlayer button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #e8bb19;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .createPlayer button:hover {
+    background-color: #ba9306;
+  }
+  

@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.edit,
+.delete {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.edit:hover {
+    background-color: #1b6f1e;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #81120a;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 831px) {
+
+    
+  }
